@@ -139,7 +139,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .contact-menu:hover .icon-envelope,
 .contact-menu:focus .icon-envelope {
-  stroke: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .contact-menu:hover .icon-smartphone,
@@ -331,10 +331,6 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   display: flex;
   justify-content: center;
   margin-right: 10px;
-  cursor: pointer;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
 }
 
 .social-link:last-child {
