@@ -129,10 +129,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .icon-envelope {
   margin-right: 10px;
+  fill: #afb1b8;
 }
 
 .icon-smartphone {
   margin-right: 10px;
+  fill: #afb1b8;
 }
 
 .contact-menu:hover .icon-envelope,
