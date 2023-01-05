@@ -330,7 +330,11 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .social-link {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-right: 10px;
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
 }
 
 .social-link:last-child {
@@ -341,7 +345,6 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
 }
 
 .social-link:hover .social-link-icon {
@@ -351,6 +354,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .social-link-icon {
   cursor: pointer;
+  fill: #afb1b8;
 }
 
 /*footer*/
