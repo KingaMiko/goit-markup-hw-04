@@ -32,6 +32,10 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -120,7 +124,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .contact-menu {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.17;
