@@ -213,16 +213,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .container-subsection {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   padding-left: 0;
 }
 
 .subsection-element {
   width: 270px;
-  margin-right: 30px;
-}
-
-.subsection-element:last-child {
-  margin-right: 0;
 }
 
 .subsection-element:first-child {
@@ -370,8 +366,6 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .customers-item {
