@@ -366,11 +366,48 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   fill: #afb1b8;
 }
 
-/*footer*/
-
-.footer-logo {
-  margin-bottom: 20px;
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: auto;
+  padding-right: auto;
 }
+
+.customers-item {
+  margin-right: 30px;
+}
+
+.customers-item:last-child {
+  margin-right: 0px;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customers-icon {
+  fill: #afb1b8;
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+  fill: var(--accent-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+
+/*footer*/
 
 .footer {
   background-color: var(--secondary-bgd-color);
@@ -378,8 +415,10 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   padding-bottom: 20px;
 }
 
-.logo-web-footer {
-  color: var(--secondary-text-color);
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .adress-footer {
@@ -388,11 +427,19 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   line-height: 2;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-right: 70px;
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+}
+
+.logo-web-footer {
+  color: var(--secondary-text-color);
 }
 
 .adress {
   padding-bottom: 60px;
-  margin-top: 20px;
 }
 
 .adress-data {
@@ -410,6 +457,56 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .contact-footer:focus,
 .contact-footer:active {
   color: var(--accent-color);
+}
+
+/* join us */
+
+.joinus-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.joinus-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.joinus-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.joinus-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinus-item:last-child {
+  margin-right: 0px;
+}
+
+.joinus-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.joinus-item:hover,
+.joinus-item:focus {
+  background-color: var(--accent-color);
 }
 
 /*portfolio CSS*/
@@ -446,6 +543,9 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 .pf-button:active {
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 2px 2px 0px #0000001f;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001a;
 }
 
 .portfolio-container {
@@ -457,6 +557,12 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.work:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work-description {

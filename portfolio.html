@@ -45,13 +45,19 @@
         </nav>
         <ul class="site-nav-contact">
           <li class="contact-nav">
-            <a href="mailto:info@devstudio.com" class="link contact-menu"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="link contact-menu">
+              <svg class="icon-envelope" width="16px" height="12px">
+                <use href="./images/icons/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="contact-nav">
             <a href="tel:+48111111111" class="link contact-menu"
-              >+48 111 111 111</a
+              ><svg class="icon-smartphone" width="10" height="16">
+                <use href="./images/icons/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
             >
           </li>
         </ul>
@@ -188,12 +194,14 @@
     <footer class="footer">
       <!-- contact -->
       <div class="container">
-        <div class="container">
-          <a class="logo" href="./index.html"
-            ><span class="logo-web">Web</span
-            ><span class="logo-web-footer">Studio</span></a
-          >
-        </div>
+        <div class="footer-container">
+          <div class="adress-footer">
+            <div class="logo-footer">
+          <a class="logo" href="./index.html">
+            <span class="logo-web">Web</span>
+            <span class="logo-web-footer">Studio</span>
+          </a>
+            </div>
         <address>
           <ul class="adress">
             <li class="adress-data">
@@ -206,19 +214,75 @@
               >
             </li>
             <li class="adress-data">
-              <!--mokap dla portfolio zawiera link do maila z domyślnym formatowaniem, dlatego nie zastosowałam klasy .link-->
               <a href="mailto:info@example.com" class="contact-footer"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="adress-data">
               <a href="tel:+48111111111" class="link contact-footer"
                 >+48 111 111 111</a
               >
+            </a>
             </li>
           </ul>
         </address>
+          </div>
+      <!--join us-->
+      <div>
+        <h3 class="joinus-title">dołącz do nas</h3>
+        <ul class="joinus-list">
+          <li class="joinus-item">
+            <a
+                  class="joinus-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instragram Icon"
+                >
+                <svg class="joinus-icon">
+                  <use href="./images/icons/icons.svg#icon-instagram-2"></use>
+                </svg>
+          </li>
+          <li class="joinus-item">
+            <a
+                  class="joinus-link"
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter Icon"
+                >
+                <svg class="joinus-icon">
+                  <use href="./images/icons/icons.svg#icon-twitter-1"></use>
+                </svg>
+          </li>
+          <li class="joinus-item">
+            <a
+                  class="joinus-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook Icon"
+                >
+                <svg class="joinus-icon">
+                  <use href="./images/icons/icons.svg#icon-facebook-1"></use>
+                </svg>
+          </li>
+          <li class="joinus-item">
+            <a
+                  class="joinus-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Linkedin Icon"
+                >
+                <svg class="joinus-icon">
+                  <use href="./images/icons/icons.svg#icon-linkedin-1"></use>
+                </svg>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
     </footer>
   </body>
 </html>
