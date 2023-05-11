@@ -148,7 +148,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 .contact-menu:hover .icon-smartphone,
 .contact-menu:focus .icon-smartphone {
-  stroke: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /*HERO*/
